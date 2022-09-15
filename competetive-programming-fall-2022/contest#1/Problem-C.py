@@ -1,19 +1,19 @@
 a = int(input())
-if 1 <= a <= 4:
+if a in range(1, 5):
     print("few")
-elif 5 <= a <= 9:
+elif a in range(5, 10):
     print("several")
-elif 10 <= a <= 19:
+elif a in range(10, 20):
     print("pack")
-elif 20 <= a <= 49:
+elif a in range(20, 50):
     print("lots")
-elif 50 <= a <= 99:
+elif a in range(50, 100):
     print("horde")
-elif 100 <= a <= 249:
+elif a in range(100, 250):
     print("throng")
-elif 250 <= a <= 499:
+elif a in range(250, 500):
     print("swarm")
-elif 500 <= a <= 999:
+elif a in range(500, 1000):
     print("zounds")
 elif 1000 <= a:
     print("legion")
